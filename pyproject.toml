@@ -1,0 +1,18 @@
+[project]
+name = "python-outlier-detection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab (>=4.4.1,<5.0.0)",
+    "ipywidgets (>=8.1.6,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
